@@ -1,0 +1,53 @@
+.text-center{
+    text-align: center;
+}
+.heading-small{
+    font-size: 1.25rem;
+}
+.heading-medium{
+    font-size: 1.5rem;
+}
+.heading-big{
+    font-size: 1.75rem;
+    letter-spacing: 1px;
+}
+.bg-lightsblue{
+    background: rgb(10, 3, 32);
+}
+.bg-green{
+    background: rgb(45, 183, 45);
+}
+.container{
+    max-width: 1200px;
+    
+ margin: 0 auto;
+}
+/*buttons */
+
+.btn{
+    margin-top: 1.25rem;
+    
+   padding: 0.8rem 3rem;
+   border-radius: 7px;
+   letter-spacing: 0.5px;
+
+}
+
+.btn-primary{
+    background:midnightblue
+  
+}
+.btn-primary:hover{
+    color:rgb(175, 142, 241);
+    background:rgb(227, 252, 240);
+    border: 0.5px solid rgb(175, 142, 241) ;
+    }
+
+.btn-primarydark{
+    color: whitesmoke;
+    background-color: black;
+    border: 0.5px solid rgb(175, 142, 241);
+}
+.btn-block{
+    width: 100%;
+}

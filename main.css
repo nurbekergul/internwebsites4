@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+h1{
+    font-size: 30px;
+    letter-spacing: 3px;
+   
+}
+a{
+    color: rgb(242, 208, 144);
+    text-decoration: none;
+}
+
+
+html {
+    color: rgb(5, 5, 3);
+    font-family: Open Sans,sans-serif;
+
+    
+}
+#navbar {
+    color: aliceblue;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding-top: 0.5rem; 
+    padding-bottom: 0.2rem;
+    
+    height: 30%;
+    letter-spacing: 1px;
+    text-decoration-line: none;
+    flex-wrap:wrap;
+    
+}
+
+    #navbar ul {
+        list-style-type: none;
+        display: flex;
+        align-items: center;
+
+    }
+    #navbar ul li a {
+        padding: 0.75rem;
+
+    }
+    #navbar ul li a:hover {
+        background: rgb(79, 75, 153);
+        color: aliceblue;
+        border-spacing: 1px;
+        border-radius: 5px;
+        
+        
+    }
+   
+    #home {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 2rem;
+        border-bottom: 1px solid grey;
+        text-align: center;
+        letter-spacing: 2px;
+    }
+    #home img{
+        max-width: 100%;
+        height: auto;
+        border-radius: 100%;
+    }
+    #home h2{
+        font-size: 2rem;
+        letter-spacing: 2px;
+    
+    }
+    #home .name p{
+        opacity: 0.6;
+        font-style: italic;
+    }
+    /*İtems */
+
+    #items {
+
+        color: rgb(79, 75, 153);
+        background-color:rgb(255, 255, 255);
+
+    }
+    #items h2{
+        font-size: 2.5rem;
+        color: midnightblue;
+        margin-top: 1.25rem;
+    
+        padding: 0.8rem 3rem;
+        border-radius: 7px;
+        letter-spacing: 0.5px;
+       
+     
+    
+    }
+    #items h3{
+        
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 2rem;
+        border-bottom: 1px solid grey;
+        
+        text-align: center;
+        letter-spacing: 2px;
+        width: auto;
+        flex: auto;
+        
+    }
+    #items h3:hover{
+        color:rgb(180, 139, 255);
+        background: rgb(181, 202, 245);
+    }
+    #items li p{
+        color:rgb(40, 59, 121);
+        opacity: 0.8;
+        font-size:1.2rem;
+        text-align:center;
+        letter-spacing: 1px;
+        
+    }
+    #items li p:hover{
+        color: rgb(132, 132, 240);
+    }
+    
+
